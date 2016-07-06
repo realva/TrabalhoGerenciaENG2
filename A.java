@@ -42,6 +42,12 @@ public class A {
 		
 		this.A3 = pA3;
 	}
+	
+	public float soma(){
+		
+		return (this.A1 + this.A2);
+		
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
