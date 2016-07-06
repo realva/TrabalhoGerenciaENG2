@@ -10,10 +10,31 @@ public class A {
 	public A() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	public void setA1(int pA1){
+		
+		this.A1 = pA1;
+		
+	}
+	
+	public int getA1(){
+		
+		return this.A1;
+		
+	}
+	
+	public void setA2(float pA2){
+		
+		this.A2 = pA2;
+		
+	}
+	
+	public float getA2(){
+		
+		return this.A2;
+		
+	} 
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
