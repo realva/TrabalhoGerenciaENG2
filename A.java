@@ -7,6 +7,7 @@ public class A {
 	private int A1;
 	private float A2;
 	private String A3;
+	private String Aramo4;
 	
 	
 	
@@ -43,12 +44,29 @@ public class A {
 		this.A3 = pA3;
 	}
 	
+	public String getA3(){
+		
+		return this.A3;
+		
+	}
+	
 	public float soma(){
 		
 		return (this.A1 + this.A2);
 		
 	}
-
+	
+	public void setAramo4(String pAramo4){
+		
+		this.Aramo4 = pAramo4;
+	}
+	
+	public String getAramo4(){
+		
+		return this.Aramo4;
+		
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
