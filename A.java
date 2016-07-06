@@ -6,6 +6,9 @@ public class A {
 
 	private int A1;
 	private float A2;
+	private String A3;
+	
+	
 	
 	public A() {
 		// TODO Auto-generated constructor stub
@@ -33,7 +36,12 @@ public class A {
 		
 		return this.A2;
 		
-	} 
+	}
+
+	public void setA3(String pA3){
+		
+		this.A3 = pA3;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
