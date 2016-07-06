@@ -6,6 +6,11 @@ public class A {
 
 	private int A1;
 	private float A2;
+	private String A3;
+	private String Aramo4;
+	private String Aprinc4;
+	
+	
 	
 	public A() {
 		// TODO Auto-generated constructor stub
@@ -33,8 +38,46 @@ public class A {
 		
 		return this.A2;
 		
-	} 
+	}
 
+	public void setA3(String pA3){
+		
+		this.A3 = pA3;
+	}
+	
+	public String getA3(){
+		
+		return this.A3;
+		
+	}
+	
+	public float soma(){
+		
+		return (this.A1 + this.A2);
+		
+	}
+	
+	public void setAramo4(String pAramo4){
+		
+		this.Aramo4 = pAramo4;
+	}
+	
+	public String getAramo4(){
+		
+		return this.Aramo4;
+		
+	}
+	public void setAprinc4(String pAprinc4){
+		
+		this.Aprinc4 = pAprinc4;
+	}
+	
+	public String getAprinc4(){
+		
+		return this.Aprinc4;
+		
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
