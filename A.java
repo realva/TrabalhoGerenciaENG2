@@ -8,6 +8,7 @@ public class A {
 	private float A2;
 	private String A3;
 	private String Aramo4;
+	private String Aprinc4;
 	
 	
 	
@@ -64,6 +65,16 @@ public class A {
 	public String getAramo4(){
 		
 		return this.Aramo4;
+		
+	}
+	public void setAprinc4(String pAprinc4){
+		
+		this.Aprinc4 = pAprinc4;
+	}
+	
+	public String getAprinc4(){
+		
+		return this.Aprinc4;
 		
 	}
 	
